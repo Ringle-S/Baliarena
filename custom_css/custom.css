@@ -15,7 +15,10 @@
 #navbarSupportedContent a:hover {
   border-bottom: 4px solid #cf2bcc;
 }
-
+.nav-item a.activenav {
+  border-bottom: 4px solid #cf2bcc !important;
+  border-radius: 10px !important;
+}
 h1 {
   margin-bottom: 0px;
 }
@@ -39,7 +42,7 @@ input[type="email"]::placeholder {
 } */
 @media screen and (max-width: 1440px) {
   .people img {
-    top: -300px;
+    top: -55% !important;
     left: 100px;
   }
 }
@@ -48,7 +51,8 @@ input[type="email"]::placeholder {
     display: none;
   }
   .people img {
-    top: -50px !important;
+    /* top: -50px !important; */
+    top: -30% !important;
   }
   .autoscroll {
     padding: 80px 0 !important;
@@ -62,6 +66,9 @@ input[type="email"]::placeholder {
   .card-1024 {
     display: none !important;
   }
+  .whoweare {
+    height: fit-content !important;
+  }
 }
 @media screen and (max-width: 768px) {
   .people {
@@ -73,6 +80,9 @@ input[type="email"]::placeholder {
   }
   .autoscroll {
     padding: 50px 0 !important;
+  }
+  .whoweare {
+    height: fit-content !important;
   }
 }
 @media screen and (max-width: 376px) {
