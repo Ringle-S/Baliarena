@@ -45,6 +45,15 @@ input[type="email"]::placeholder {
     top: -55% !important;
     left: 100px;
   }
+  .text-head {
+    font-size: 34px !important;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .people img {
+    /* top: -50px !important; */
+    top: -30% !important;
+  }
 }
 @media screen and (max-width: 1025px) {
   .card-1024 {
