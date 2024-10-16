@@ -98,6 +98,17 @@ input[type="email"]::placeholder {
   .testimonials #carouselExampleIndicators .carousel-control-next {
     right: 0%;
   }
+  .carousel-control-prev {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .carousel-control-next {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .fonty {
+    font-size: 14px !important;
+  }
 }
 
 @media screen and (max-width: 320px) {
